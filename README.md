@@ -1,5 +1,5 @@
 <div align="center">
-ComfyUI-Windows-全网最稳定的整合包
+ComfyUI-Windows-Portable
 </div>
 
 ##
