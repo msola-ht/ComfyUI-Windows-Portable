@@ -1,5 +1,4 @@
-<center>
-# ComfyUI-Windows-全网最稳定的整合包
+ComfyUI-Windows-全网最稳定的整合包
 
 ####
 
@@ -25,4 +24,3 @@
   <a href="./README_ES.md"><img src="https://img.shields.io/badge/Español-d9d9d9"></a>
   <a href="./README_PT.md"><img src="https://img.shields.io/badge/Português-d9d9d9"></a>
 </div>
-####
