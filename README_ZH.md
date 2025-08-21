@@ -32,6 +32,9 @@ ComfyUI-Windows-Portable
 
 
 ##
+## 更新记录：
+
+- 8-20：整合包分为国内版及全球版，除了启动文件不同，其他没有区别。
 
 ## 整合包介绍以及说明：
 
@@ -63,9 +66,6 @@ ComfyUI-Windows-Portable
   - 安装时请务必勾选 **“使用 C++ 的桌面开发” (Desktop development with C++)** 工作负载。
   - 下载地址：[Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs)
 
-## 更新记录：
-
-- 8-20：整合包分为国内版及全球版，除了启动文件不同，其他没有区别。
 
 ## 下载地址：
 
