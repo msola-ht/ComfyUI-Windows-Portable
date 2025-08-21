@@ -9,9 +9,10 @@ ComfyUI-Windows-Portable
   <a href="https://space.bilibili.com/1313066">Bilibili</a> ·
   <a href="https://www.youtube.com/@lunare-mcn">Youtube</a> ·
   <a href="https://github.com/msola-ht/ComfyUI-Windows-Portable">Text tutorial</a> ·
-  <a href="https://pan.quark.cn/s/248b41dd8ee1">CN-Cloud disk address</a> 。
-  <a href="https://huggingface.co/hemcn/ComfyUI-Portable/tree/main">Huggingface</a> 。
+  <a href="https://pan.quark.cn/s/248b41dd8ee1">CN-Cloud disk address</a> .
+  <a href="https://huggingface.co/hemcn/ComfyUI-Portable/tree/main">Huggingface</a> .
 </div>
+
 
 
 ####
@@ -46,7 +47,7 @@ ComfyUI-Windows-Portable
 
 ### Windows 系统必备安装说明 (Windows System Prerequisites)
 
-为确保本项目在 Windows 环境下顺利运行及相关组件的正确编译，请按照以下指南安装必备软件和驱动：
+为确保整合包在 Windows 环境下顺利运行及相关组件的正确编译，请按照以下指南安装必备软件和驱动：
 
 - **NVIDIA CUDA Toolkit 12.8.1**:
   - 为确保GPU加速功能及相关库（如 PyTorch、xformers、Apex）的兼容性与编译成功，强烈建议安装此特定版本。
@@ -58,7 +59,7 @@ ComfyUI-Windows-Portable
   - 推荐使用版本不高于 `25.1.1` 的 Conda 发行版（例如 Miniforge3 25.1.1 或 Anaconda/Miniconda 25.1.1）。
   - **重要提示**: 高于此版本的 Conda 可能会导致本项目提供的批处理脚本（`.bat` 文件）无法正确调用虚拟环境。
 - **Visual Studio 2022**:
-  - 用于编译本项目中需要从源代码构建的组件（如 `xformers` 和 `Apex`）。
+  - 用于编译整合包需要从源代码构建的组件（如 `xformers` 和 `Apex`）。
   - 安装时请务必勾选 **“使用 C++ 的桌面开发” (Desktop development with C++)** 工作负载。
   - 下载地址：[Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs)
 
