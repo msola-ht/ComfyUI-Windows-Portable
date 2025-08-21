@@ -26,6 +26,7 @@ ComfyUI-Windows-Portable
   <a href="./README_ES.md"><img src="https://img.shields.io/badge/Español-d9d9d9"></a>
   <a href="./README_PT.md"><img src="https://img.shields.io/badge/Português-d9d9d9"></a>
 </div>
+
 ## Update Log:
 
 -   August 20: The **Portable** is divided into a Chinese version and a global version. Other than the different startup files, there is no difference.
