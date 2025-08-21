@@ -32,6 +32,7 @@ ComfyUI-Windows-Portable
 
 
 ##
+
 ## 更新记录：
 
 - 8-20：整合包分为国内版及全球版，除了启动文件不同，其他没有区别。
@@ -52,20 +53,26 @@ ComfyUI-Windows-Portable
 
 为确保整合包在 Windows 环境下顺利运行及相关组件的正确编译，请按照以下指南安装必备软件和驱动：
 
-- **NVIDIA CUDA Toolkit 12.8.1**:
-  - 为确保GPU加速功能及相关库（如 PyTorch、xformers、Apex）的兼容性与编译成功，强烈建议安装此特定版本。
-  - 下载地址：[CUDA Toolkit 12.8.1](https://developer.nvidia.com/cuda-12-8-1-download-archive)
-- **NVIDIA cuDNN 9.8.0.87**:
-  - 深度学习库的关键加速组件。请确保其版本与您安装的 CUDA Toolkit 12.8.1 兼容，并按照官方指南正确配置（通常是将文件复制到 CUDA 安装目录）。
-  - 下载地址：[cuDNN 9.8.0.87](https://developer.nvidia.com/cudnn-9-8-0-download-archive)
-- **Conda 环境管理器 (版本 <= 25.1.1)**:
-  - 推荐使用版本不高于 `25.1.1` 的 Conda 发行版（例如 Miniforge3 25.1.1 或 Anaconda/Miniconda 25.1.1）。
-  - **重要提示**: 高于此版本的 Conda 可能会导致本项目提供的批处理脚本（`.bat` 文件）无法正确调用虚拟环境。
-- **Visual Studio 2022**:
-  - 用于编译整合包需要从源代码构建的组件（如 `xformers` 和 `Apex`）。
-  - 安装时请务必勾选 **“使用 C++ 的桌面开发” (Desktop development with C++)** 工作负载。
-  - 下载地址：[Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs)
+**NVIDIA CUDA Toolkit 12.8.1**:
+- 为确保GPU加速功能及相关库（如 PyTorch、xformers、Apex）的兼容性与编译成功，强烈建议安装此特定版本。
+- 下载地址：[CUDA Toolkit 12.8.1](https://developer.nvidia.com/cuda-12-8-1-download-archive)
 
+**NVIDIA cuDNN 9.8.0.87**:
+- 深度学习库的关键加速组件。请确保其版本与您安装的 CUDA Toolkit 12.8.1 兼容，并按照官方指南正确配置（通常是将文件复制到 CUDA 安装目录）。
+- 下载地址：[cuDNN 9.8.0.87](https://developer.nvidia.com/cudnn-9-8-0-download-archive)
+
+**Conda 环境管理器 (版本 <= 25.1.1)**:
+- 推荐使用版本不高于 `25.1.1` 的 Conda 发行版（例如 Miniforge3 25.1.1 或 Anaconda/Miniconda 25.1.1）。
+- **重要提示**: 高于此版本的 Conda 可能会导致本项目提供的批处理脚本（`.bat` 文件）无法正确调用虚拟环境。
+
+**Visual Studio 2022**:
+- 用于编译整合包需要从源代码构建的组件（如 `xformers` 和 `Apex`）。
+- 安装时请务必勾选 **“使用 C++ 的桌面开发” (Desktop development with C++)** 工作负载。
+- 下载地址：[Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs)
+
+### 内置插件
+
+ [插件清单](custom_nodes\zh.md) 
 
 ## 下载地址：
 
