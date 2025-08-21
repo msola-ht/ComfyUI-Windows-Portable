@@ -34,6 +34,9 @@ ComfyUI-Windows-Portable
 
 
 ##
+## Update Log:
+
+- 8-20: The integrated package is divided into domestic and global versions, with no differences other than the startup files.
 
 ## About the Integrated Package and Instructions:
 
@@ -65,9 +68,6 @@ To ensure the smooth operation of the integrated package in a Windows environmen
   - When installing, be sure to check the **"Desktop development with C++"** workload.
   - Download address: [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs)
 
-## Update Log:
-
-- 8-20: The integrated package is divided into domestic and global versions, with no differences other than the startup files.
 
 ## Download Addresses:
 
