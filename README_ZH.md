@@ -72,7 +72,7 @@ ComfyUI-Windows-Portable
 
 ### 内置插件
 
- [插件清单](custom_nodes\zh.md) 
+-  [插件清单](custom_nodes/zh.md) 
 
 ## 下载地址：
 
