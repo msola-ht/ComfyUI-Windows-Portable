@@ -54,20 +54,26 @@ This integrated package is built and tested based on **Miniforge3-25.1.1**, and 
 
 To ensure the smooth operation of the integrated package in a Windows environment and the correct compilation of related components, please install the necessary software and drivers according to the following guide:
 
-- **NVIDIA CUDA Toolkit 12.8.1**:
-  - To ensure compatibility and successful compilation of GPU acceleration features and related libraries (such as PyTorch, xformers, Apex), it is strongly recommended to install this specific version.
-  - Download address: [CUDA Toolkit 12.8.1](https://developer.nvidia.com/cuda-12-8-1-download-archive)
-- **NVIDIA cuDNN 9.8.0.87**:
-  - A key acceleration component for deep learning libraries. Please ensure its version is compatible with your installed CUDA Toolkit 12.8.1 and configure it correctly according to the official guide (usually by copying files to the CUDA installation directory).
-  - Download address: [cuDNN 9.8.0.87](https://developer.nvidia.com/cudnn-9-8-0-download-archive)
-- **Conda Environment Manager (version <= 25.1.1)**:
-  - It is recommended to use a Conda distribution no higher than `25.1.1` (e.g., Miniforge3 25.1.1 or Anaconda/Miniconda 25.1.1).
-  - **Important Note**: Conda versions higher than this may cause the batch scripts (`.bat` files) provided in this project to fail to correctly call the virtual environment.
-- **Visual Studio 2022**:
-  - Used for compiling components of the integrated package that need to be built from source (such as `xformers` and `Apex`).
-  - When installing, be sure to check the **"Desktop development with C++"** workload.
-  - Download address: [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs)
+**NVIDIA CUDA Toolkit 12.8.1**:
+- To ensure compatibility and successful compilation of GPU acceleration features and related libraries (such as PyTorch, xformers, Apex), it is strongly recommended to install this specific version.
+- Download address: [CUDA Toolkit 12.8.1](https://developer.nvidia.com/cuda-12-8-1-download-archive)
 
+**NVIDIA cuDNN 9.8.0.87**:
+- A key acceleration component for deep learning libraries. Please ensure its version is compatible with your installed CUDA Toolkit 12.8.1 and configure it correctly according to the official guide (usually by copying files to the CUDA installation directory).
+- Download address: [cuDNN 9.8.0.87](https://developer.nvidia.com/cudnn-9-8-0-download-archive)
+
+**Conda Environment Manager (version <= 25.1.1)**:
+- It is recommended to use a Conda distribution no higher than `25.1.1` (e.g., Miniforge3 25.1.1 or Anaconda/Miniconda 25.1.1).
+- **Important Note**: Conda versions higher than this may cause the batch scripts (`.bat` files) provided in this project to fail to correctly call the virtual environment.
+
+**Visual Studio 2022**:
+- Used for compiling components of the integrated package that need to be built from source (such as `xformers` and `Apex`).
+- When installing, be sure to check the **"Desktop development with C++"** workload.
+- Download address: [Visual Studio 2022](https://visualstudio.microsoft.com/zh-hans/vs)
+
+### Built-in Nodes
+
+-  [Nodes List](custom_nodes/en.md) 
 
 ## Download Addresses:
 
