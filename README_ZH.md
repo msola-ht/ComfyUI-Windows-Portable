@@ -9,9 +9,10 @@ ComfyUI-Windows-Portable
   <a href="https://space.bilibili.com/1313066">Bilibili</a> ·
   <a href="https://www.youtube.com/@lunare-mcn">Youtube</a> ·
   <a href="https://github.com/msola-ht/ComfyUI-Windows-Portable">Text tutorial</a> ·
-  <a href="https://pan.quark.cn/s/248b41dd8ee1">CN-Cloud disk address</a> .
-  <a href="https://huggingface.co/hemcn/ComfyUI-Portable/tree/main">Huggingface</a> .
+  <a href="https://pan.quark.cn/s/248b41dd8ee1">CN-Cloud disk address</a> ·
+  <a href="https://huggingface.co/hemcn/ComfyUI-Portable/tree/main">Huggingface</a> ·
 </div>
+
 
 
 
