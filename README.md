@@ -21,20 +21,19 @@ ComfyUI-Windows-Portable
 <div align="center">
   <a href="./README_ZH.md"><img src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
   <a href="./README.md"><img src="https://img.shields.io/badge/English-d9d9d9"></a>
-  <a href="./README_RU.md"><img src="https://img.shields.io/badge/Русский-d9d9d9"></a>
-  <a href="./README_FR.md"><img src="https://img.shields.io/badge/Français-d9d9d9"></a>
-  <a href="./README_DE.md"><img src="https://img.shields.io/badge/Deutsch-d9d9d9"></a>
-  <a href="./README_JA.md"><img src="https://img.shields.io/badge/日本語-d9d9d9"></a>
-  <a href="./README_KO.md"><img src="https://img.shields.io/badge/한국어-d9d9d9"></a>
-  <a href="./README_AR.md"><img src="https://img.shields.io/badge/العربية-d9d9d9"></a>
-  <a href="./README_ES.md"><img src="https://img.shields.io/badge/Español-d9d9d9"></a>
-  <a href="./README_PT.md"><img src="https://img.shields.io/badge/Português-d9d9d9"></a>
 </div>
 
 
 
 ##
+
 ## Update Log:
+
+- 8-24: Updated to the latest model and plugins, supporting nunchaku's qwen_image
+
+  \- Environment package re-created
+
+  \- Bat now uses path-based calling
 
 - 8-20: The integrated package is divided into domestic and global versions, with no differences other than the startup files.
 

@@ -20,15 +20,8 @@ ComfyUI-Windows-Portable
 <div align="center">
   <a href="./README_ZH.md"><img src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
   <a href="./README.md"><img src="https://img.shields.io/badge/English-d9d9d9"></a>
-  <a href="./README_RU.md"><img src="https://img.shields.io/badge/Русский-d9d9d9"></a>
-  <a href="./README_FR.md"><img src="https://img.shields.io/badge/Français-d9d9d9"></a>
-  <a href="./README_DE.md"><img src="https://img.shields.io/badge/Deutsch-d9d9d9"></a>
-  <a href="./README_JA.md"><img src="https://img.shields.io/badge/日本語-d9d9d9"></a>
-  <a href="./README_KO.md"><img src="https://img.shields.io/badge/한국어-d9d9d9"></a>
-  <a href="./README_AR.md"><img src="https://img.shields.io/badge/العربية-d9d9d9"></a>
-  <a href="./README_ES.md"><img src="https://img.shields.io/badge/Español-d9d9d9"></a>
-  <a href="./README_PT.md"><img src="https://img.shields.io/badge/Português-d9d9d9"></a>
 </div>
+
 
 
 ##
@@ -36,9 +29,11 @@ ComfyUI-Windows-Portable
 ## 更新记录：
 
 - 8-24：更新最新本体及插件，支持nunchaku 的 qwen_image
-  - 环境包重新制作
-  - Bat采用路径调用形式
+  
+  \- 环境包重新制作
 
+  \- Bat采用路径调用形式
+  
 - 8-20：整合包分为国内版及全球版，除了启动文件不同，其他没有区别。
 
 ## 整合包介绍以及说明：
